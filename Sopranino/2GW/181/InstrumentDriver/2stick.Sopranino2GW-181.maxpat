@@ -9637,9 +9637,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.prependaddr.maxpat",
-				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
+				"name" : "dot.osc.address.prepend.maxpat",
+				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
 				"type" : "JSON",
 				"implicit" : 1
 			}

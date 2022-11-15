@@ -886,7 +886,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 120.0, 125.0, 20.0 ],
-									"text" : "dot.prependaddr /raw"
+									"text" : "dot.osc.address.prepend /raw"
 								}
 
 							}
@@ -3507,7 +3507,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 375.0, 135.0, 20.0 ],
-					"text" : "dot.slipdecode 100 101"
+					"text" : "dot.slip.decode 100 101"
 				}
 
 			}
@@ -3522,7 +3522,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "clear" ],
 					"patching_rect" : [ 45.0, 345.0, 439.0, 20.0 ],
-					"text" : "dot.serial a 115200 8 1 0"
+					"text" : "dot.io.serial a 115200 8 1 0"
 				}
 
 			}

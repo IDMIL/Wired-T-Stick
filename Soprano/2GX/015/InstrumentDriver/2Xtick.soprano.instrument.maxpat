@@ -2883,7 +2883,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 277.0, 161.0, 20.0 ],
-					"text" : "dot.prependaddr /instrument"
+					"text" : "dot.osc.address.prepend /instrument"
 				}
 
 			}
@@ -3154,9 +3154,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.prependaddr.maxpat",
-				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
+				"name" : "dot.osc.address.prepend.maxpat",
+				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
 				"type" : "JSON",
 				"implicit" : 1
 			}

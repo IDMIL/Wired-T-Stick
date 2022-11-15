@@ -1799,7 +1799,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 120.0, 125.0, 20.0 ],
-									"text" : "dot.prependaddr /raw"
+									"text" : "dot.osc.address.prepend /raw"
 								}
 
 							}
@@ -3210,7 +3210,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 375.0, 135.0, 20.0 ],
-					"text" : "dot.slipdecode 100 101"
+					"text" : "dot.slip.decode 100 101"
 				}
 
 			}
@@ -3225,7 +3225,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "clear" ],
 					"patching_rect" : [ 45.0, 345.0, 439.0, 20.0 ],
-					"text" : "dot.serial a 115200 8 1 0"
+					"text" : "dot.io.serial a 115200 8 1 0"
 				}
 
 			}
@@ -4014,23 +4014,23 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.serial.maxpat",
-				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/serial/dot.serial",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/serial/dot.serial",
+				"name" : "dot.io.serial.maxpat",
+				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/serial/dot.io.serial",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/serial/dot.io.serial",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.slipdecode.maxpat",
-				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/serial/dot.SLIPdecode",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/serial/dot.SLIPdecode",
+				"name" : "dot.slip.decode.maxpat",
+				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/serial/dot.slip.decode",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/serial/dot.slip.decode",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.prependaddr.maxpat",
-				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.prependaddr",
+				"name" : "dot.osc.address.prepend.maxpat",
+				"bootpath" : "/Users/anievalocal/Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Library/dot_20121204/osc/dot.osc.address.prepend",
 				"type" : "JSON",
 				"implicit" : 1
 			}
